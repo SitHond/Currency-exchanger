@@ -1,0 +1,23 @@
+﻿<Window x:Class="Currency_exchanger.Page.Auth"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Currency_exchanger.Page"
+        mc:Ignorable="d"
+        Title="Войти | SitHond" Height="450" Width="800" MaxHeight="450" MaxWidth="800" MinHeight="450" MinWidth="800">
+    <Grid Margin="0,10,0,0">
+        <TextBox BorderBrush="Black" x:Name="loginBtn" Margin="244,120,392,240"/>
+        <TextBox BorderBrush="Black" x:Name="passBtn" Margin="244,189,392,187" RenderTransformOrigin="0.5,0.5">
+            <TextBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleX="0"/>
+                    <RotateTransform/>
+                    <TranslateTransform X="0"/>
+                </TransformGroup>
+            </TextBox.RenderTransform>
+        </TextBox>
+        <Button Click="Button_Click" Content="2323123" Margin="257,242,404,121"/>
+    </Grid>
+</Window>
