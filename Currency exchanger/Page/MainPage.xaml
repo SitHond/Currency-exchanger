@@ -1,0 +1,20 @@
+﻿<Page x:Class="Currency_exchanger.Page.MainPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Currency_exchanger.Page"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+       Title="MainPage" Height="450" Width="800" MaxHeight="450" MaxWidth="800" MinHeight="450" MinWidth="800">
+
+    <Grid Background="White">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="111*"/>
+            <ColumnDefinition Width="689*"/>
+        </Grid.ColumnDefinitions>
+        <Button x:Name="accBtn" Content="Аккаунт" Margin="0,5,0,411" Click="accBtn_Click"  />
+        <Button x:Name="kursBtn" Content="Курс" Margin="0,44,0,370"/>
+        <Button x:Name="glavBtn" Content="Главная" Margin="0,85,0,329"/>
+    </Grid>
+</Page>
